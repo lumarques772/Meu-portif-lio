@@ -1,0 +1,66 @@
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Lucelia</h1>
+    <button id="tema-btn">Escuro</button>
+
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sobre -->
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+
+    <img src="foto.jpg" alt="Foto de Lucelia">
+
+    <p>
+      Sou formada em Pedagogia e estou me especializando na área educacional.
+      Tenho interesse em tecnologia aplicada à educação e estou aprendendo desenvolvimento web.
+      Busco crescer profissionalmente e contribuir com projetos educacionais e inovadores.
+    </p>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+    <div id="lista-projetos"></div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+
+    <form id="form-contato">
+      <label>Nome:</label><br>
+      <input type="text" name="nome" required><br><br>
+
+      <label>E-mail:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Mensagem:</label><br>
+      <textarea name="mensagem" rows="4"></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>2026 - Desenvolvido por Lucelia</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

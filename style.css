@@ -1,0 +1,102 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+  font-family: Arial;
+  background-color: #f5f6fa;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0a3d62;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sobre */
+#sobre {
+  text-align: center;
+  padding: 30px;
+}
+
+#sobre img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Projetos */
+#projetos {
+  padding: 30px;
+}
+
+#lista-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+article {
+  background: white;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Contato */
+#contato {
+  padding: 30px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+  background: #0a3d62;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Tema escuro */
+.dark-theme {
+  background-color: #1e272e;
+  color: white;
+}
+
+.dark-theme header,
+.dark-theme footer {
+  background-color: black;
+}
